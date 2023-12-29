@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edittext2">
+    
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#232222"/>
+
+    <EditText
+        android:id="@+id/new_add_task_name"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Task Name"
+        android:textColorHint="#7733C1"
+        android:paddingStart="20dp"
+        tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+    <EditText
+        android:id="@+id/new_add_task_des"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_text"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="Task Description"
+        android:textColorHint="#7733C1"
+        android:paddingStart="20dp"
+        tools:ignore="Autofill,HardcodedText,RtlSymmetry,TextFields" />
+
+    <Button
+        android:id="@+id/new_add_task_btn"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#7733C1"
+        android:text="Done!!"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        tools:ignore="HardcodedText" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#D5C3EC"/>
+</LinearLayout>
